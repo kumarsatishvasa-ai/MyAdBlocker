@@ -1,1 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="🛡 My Ad Blocker"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        android:paddingBottom="24dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Protection OFF"
+        android:textSize="19sp"
+
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/startButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Start protection" />
+
+    <Button
+        android:id="@+id/stopButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Stop protection" />
+
+    <TextView
+        android:id="@+id/counterText"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Blocked: 0"
+        android:textSize="18sp"
+
+        android:paddingTop="30dp" />
+
+</LinearLayout>
 
